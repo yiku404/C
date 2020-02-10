@@ -5,6 +5,7 @@ int main(){
         // 将下面的for循环注释掉，就输出左下三角形
         for(n=1; n<=9-i; n++)
             printf("        ");
+        
         for(j=1;j<=i;j++)
             printf("%d*%d=%2d  ",i,j,i*j)；
         printf("\n");
