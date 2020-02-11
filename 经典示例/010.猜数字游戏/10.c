@@ -3,7 +3,6 @@
 void main()
 {
 	int Password=0,Number=0,price=58,i=0;
-	clrscr();
 	printf("\n====This is a Number Guess Game!====\n");
 	while( Password != 1234 )
 	{
